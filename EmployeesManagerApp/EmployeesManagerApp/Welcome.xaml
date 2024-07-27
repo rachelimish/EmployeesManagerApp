@@ -1,0 +1,14 @@
+﻿<Window x:Class="UI.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="800">
+    <Grid>
+        <Button Name="ButtonEmployee" Content="Employees" HorizontalAlignment="Left" Margin="141,0,0,0" VerticalAlignment="Center" Height="64" Width="171" RenderTransformOrigin="-0.063,0.28" Click="ButtonEmployee_Click"/>
+        <Button Name="ButtonCandidate" Content="Candidaes" HorizontalAlignment="Left" Margin="435,0,0,0" VerticalAlignment="Center" Height="64" Width="172" Click="ButtonCandidate_Click"/>
+
+    </Grid>
+</Window>
