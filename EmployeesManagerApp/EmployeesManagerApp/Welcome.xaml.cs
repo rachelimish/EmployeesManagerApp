@@ -34,7 +34,6 @@ namespace UI
 
         private void ButtonCandidate_Click(object sender, RoutedEventArgs e)
         {
-      
             FindCandidate findCandidate = new FindCandidate();
             findCandidate.ShowDialog();
         }
